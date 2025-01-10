@@ -3,7 +3,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-const nodemailer = require("nodemer");
+const nodemailer = require("nodemailer");
 const bodyParser = require("body-parser");
 require("dotenv").config();
 
