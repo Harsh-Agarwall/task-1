@@ -124,7 +124,7 @@ app.post("/forgot-password", async (req, res) => {
       },
     });
 
-    const resetLink = `http://localhost:5000/reset-password/${resetToken}`;
+    const resetLink = `https://auth-api-hlxt.onrender.com/reset-password/${resetToken}`;
 
     await transporter.sendMail({
       from: process.env.EMAIL,
